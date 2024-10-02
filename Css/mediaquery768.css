@@ -1,0 +1,239 @@
+@media screen and (max-width:768px) {
+    #hero {
+        height: 80vh;
+        background-position:center;
+        padding: 0 50px;
+    }
+
+    
+    #navbar {
+        position:absolute;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 200px;
+        top:0;
+        right:-600px;
+        justify-content: start;
+        align-items: start;
+        gap: 20px;
+        background-color: #72AFCC;
+        padding: 10px;
+        transition:  1s;
+    }
+    #sm-screen-card{
+        display: none;
+    }
+
+    #close{
+        display: block;
+        font-size: 26px;
+        padding-left:20px ;
+    }
+    #mobile{
+        display: flex;
+        font-size: 24px;    
+    }
+    #navbar.active{
+        right: 0;
+        display: flex;
+      
+    }
+
+    #hero {
+      background-position:center;
+    }
+
+    #header {
+        padding: 0px 60px; 
+    }
+
+    #header img {
+        width: 60px;
+    }
+
+    #feature {
+        justify-content: center;
+        padding: 20px 120px;
+    }
+
+    #product1 .pro-container {
+   
+        justify-content: center;
+   
+    }
+
+    #sm-banner {
+        flex-wrap: wrap;
+    }
+
+    #sm-banner>div {
+        flex-basis: 100%;
+    }
+    
+    #sm-banner2{
+        flex-direction: column;
+    }
+
+    #sm-banner2>div{
+        flex-basis: 100%;
+    }
+    
+    .newsboxs {
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+        
+    }
+
+
+    #shopdress {
+        gap: 20px;
+    }
+
+    #shopdress .dresscontainer>img {
+        height: 70%;
+    }
+   
+    #shopdress .dresscontainer {
+        margin-right: 10px;
+    }
+
+    #shopdress .dressdetailsbox {
+        padding: 0px 20px 0px 0px;
+        width: 60%;
+    }
+    #shopdress .dressdetailsbox h3 {
+        padding-bottom: 1px;
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+    #shopdress .dressdetailsbox h2 {
+        padding-bottom: 2px;
+        font-size: 25px;
+    }
+    #shopdress .dressdetailsbox p {
+        line-height: 1;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    #shopdress .dressdetailsbox h4 {
+        padding-bottom: 0px;
+
+ 
+    }
+
+
+    #blog-container {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        padding: 120px 50px;
+    }
+
+    #blog-box {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #blog-box .blog-details {
+        gap: 5px;
+    }
+    #blog-box .blog-details h3 {
+        font-size: 27px;
+        padding: 0px;
+        line-height: 1;
+    }
+
+    #blog-box .blog-details a {
+        font-size: 22px;
+
+    }
+    #blog-box .blog-img span {
+        font-size: 70px;
+        top: -55px;
+      
+    }
+
+    #blog-box .blog-details a::after{
+        top: 10px;
+        right: -70px;
+    
+    }
+
+
+    #about-container {
+        flex-direction: column;
+        padding: 20px 120px;
+        gap: 30px;
+
+    }
+
+    #about-container .about-img{
+        width: 100%;
+    }
+
+    
+    #about-container .about-details{
+        width: 100%;
+    }
+
+    #contact{
+        padding: 20px;
+        flex-direction:column-reverse;
+    }
+
+    #contact .contact-details{
+        
+    }
+
+
+    #contact .contact-map{
+        width: 100%;
+    }
+    
+    #contact .contact-map iframe{
+        width: 100%;    
+    }
+        #contact{
+            padding: 40px 80px;
+        flex-direction:column-reverse;
+    }
+
+
+
+    #contact .contact-map{
+        width: 100%;
+    }
+    
+    #contact .contact-map iframe{
+        width: 100%;    
+    }
+    
+
+    #contact-form {
+      flex-direction: column;
+      margin: 10px;
+      padding: 30px;
+      gap: 50px;
+    }  
+
+    #contact-form .form-details {
+        width: 100%;
+    }
+
+    #contact-form .emp-list {
+        width: 100%;
+    }
+
+    #contact-form .emp-list .emp-box {
+        justify-content: space-evenly;
+        
+    }
+
+    #contact-form .form-details h1 {
+        font-size: 30px;
+    }
+}

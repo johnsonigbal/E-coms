@@ -1,0 +1,17 @@
+
+
+@media screen and (max-width: 1300px){
+
+    #contact-form {
+        margin: 20px;
+        padding: 50px;
+        outline: none;
+        gap: 10px;
+    }
+    
+    #contact-form .emp-list {
+        width: auto;
+    }
+
+}
+

@@ -1,0 +1,193 @@
+
+#productshow{
+    display: none;
+    /* width: 100%; */
+    flex-wrap: wrap;
+}
+
+#productshow .dressshows{
+    flex-basis: 40%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#productshow .dressdetails{
+    flex-basis: 60%;
+    height: 75vh;
+    /* background-color: rgb(152, 152, 170); */
+}
+
+
+#productshow .dressshows .dressmain{
+   flex-basis:70%;
+   background-image: url('../Assets/shirts/1.png');
+   background-size: 100% 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+
+}
+
+
+#productshow .dressshows .dresslist{
+    flex-basis:30%;
+    display: flex;
+    
+ }
+
+ #productshow .dressshows .dresslist .box1{
+    flex-basis:25%;
+    margin: 10px 10px 10px 0;
+}
+#productshow .dressshows .dresslist .box1:nth-child(1){
+    margin:10px;
+    background-image: url('../Assets/shirts/1.png');
+    background-size: cover;
+}
+
+#productshow .dressshows .dresslist .box1:nth-child(2){
+    background-image: url('../Assets/shirts/2.png');
+    background-size: cover;
+}
+
+#productshow .dressshows .dresslist .box1:nth-child(3){
+    background-image: url('../Assets/shirts/3.png');
+    background-size: cover;
+}
+
+#productshow .dressshows .dresslist .box1:nth-child(4){
+    
+    background-size: cover;
+    background-image: url('../Assets/shirts/4.png');
+}
+ 
+#productshow .dressdetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 40px;
+    gap: 20px;
+}
+
+#productshow .dressdetails select{
+    width: 150px;
+    height: 30px;
+}
+
+#productshow .dressdetails input[type=number]{
+    width: 50px;
+    height: 50px;
+}
+
+
+#productshow .dressdetails input[type=button]{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700;
+    color: #fff;
+    background-color: green;
+} 
+
+
+
+/* this is second container dress css start here */
+
+
+
+#shopdress .dresscontainer>img{
+    height:70%;
+}
+
+#shopdress{
+    display: flex;
+}
+    
+
+#shopdress .dresscontainer{
+    width: 40%;
+    margin-right: 50px;
+}
+
+#shopdress .dresscontainer .dresslist{
+    display: flex;
+    margin-top:5px;
+    justify-content: space-between;
+}
+
+#shopdress .dresscontainer .dresslist .dressbox{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+
+#shopdress .dressdetailsbox{
+    width: 50%;
+}
+
+
+#shopdress .dressdetailsbox{
+    padding: 40px;
+   
+}
+
+
+#shopdress .dressdetailsbox select{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    display: block;
+    
+}
+
+#shopdress .dressdetailsbox input[type=number]{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    display: inline;
+    margin:20px 0px;
+}
+
+
+#shopdress .dressdetailsbox input[type=number]:focus{
+    outline: none;
+}
+
+#shopdress .dressdetailsbox input[type=button]{
+    width: 150px;
+    height: 50px;
+    display: inline;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700;
+    color: #fff;
+    background-color: green;
+    
+}
+
+#shopdress .dressdetailsbox h4{
+    padding-bottom: 30px;
+}
+
+
+#shopdress .dressdetailsbox h3{
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#shopdress .dressdetailsbox h2{
+    padding-bottom: 20px;
+
+}
+
+#shopdress .dressdetailsbox p{
+    
+    line-height: 1.5;
+}
+
+
+
+

@@ -1,0 +1,78 @@
+
+#shop-header.aboutus{
+    background-image:none;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: .8;
+}
+
+
+#shop-header.aboutus h2{
+    color: #fff;
+}
+
+#shop-header.aboutus p{
+    color: #fff;
+}
+
+#about-container{
+    display: flex;
+    padding: 50px 80px;
+    gap: 20px;
+}
+
+#about-container .about-img img{
+    width: 100%;
+
+    }
+#about-container .about-img{
+    width: 50%;
+}
+
+#about-container .about-details{
+display:flex;
+flex-direction: column;
+gap: 20px;
+width: 50%;
+}
+
+
+.moving-container {
+    width: 100%;              /* Full width of the screen */
+    overflow: hidden;         /* Hide anything outside the container */
+    white-space: nowrap;      /* Prevent text from wrapping */
+    background-color: gray;
+}
+
+  .moving-text {
+
+    display: inline-block;      /* Keep the text inline but apply block-level styling */
+    padding-left: 10%;         /* Start the text from the right side of the container */
+    animation: fullMove 15s linear infinite;  /* 15s animation time, smooth motion, infinite loop */
+  }
+
+#about-video{
+    padding: 20px 120px;
+    text-align: center;  
+  }
+  #about-video h1 {
+    padding-bottom:30px ;
+  }
+  #about-video  .video-box video{
+    border-radius: 20px;
+
+}
+
+  @keyframes fullMove {
+    0% {
+      transform: translateX(0%); /* Start off-screen on the right */
+    }
+    100% {
+      transform: translateX(-100%); /* End off-screen on the left */
+    }
+  }
+
+

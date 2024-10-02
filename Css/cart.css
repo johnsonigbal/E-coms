@@ -1,0 +1,116 @@
+
+#shop-header.cart{
+   
+    background-image:none;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: .8;
+}
+
+#cart{
+  padding: 40px 150px;
+}
+
+#shop-header.cart h2{
+    color: #fff;
+}
+
+#shop-header.cart p{
+    color: #fff;
+}
+
+#productContainer ul ,.table-header{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: larger;
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid rgb(197, 196, 196);
+    border-top: 1px solid rgb(197, 196, 196);
+}   
+
+#productContainer ul li , .table-header li{
+    padding: 20px 60px;
+    width: 20%;
+}
+
+#productContainer ul{
+    border: 0;
+}
+
+#productContainer ul li{
+    width: 16.7%;
+    text-align: center;
+}
+
+#cart ul li:nth-child(2) img{
+    width: 100%;
+}   
+
+#cart-checkout{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10%;
+
+}
+
+#cart-checkout .coupon-box{
+    width: 40%;
+}
+#cart-checkout h3{ 
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+
+#cart-checkout .coupon-box input[type="text"]{
+    width: 70%;
+    height: 20%;
+    padding: 5px 10px;
+    outline: none;
+}
+
+#cart-checkout .coupon-box input[type="button"],#cart-checkout .cart-box input[type="button"]{
+    width: 25%;
+    font-weight: 500;
+    font-size: larger;
+    height: 20%;
+    background-color: green;
+    color: #fff;
+    outline: none;
+    padding: 5px 10px;
+}
+
+#cart-checkout .cart-box input[type="button"]{
+    margin-top: 20px;
+    width: 45%;
+}
+
+#cart-checkout .cart-box{
+    width: 50%;
+    border: 1px solid rgb(187, 185, 185);
+    outline: none;
+    padding: 20px;
+
+}
+
+#cart-checkout .cart-box table{
+    border-collapse: collapse; 
+    width: 100%;
+    text-transform: capitalize;
+}
+
+#cart-checkout .cart-box table tr{
+   
+}
+
+#cart-checkout .cart-box table  th, #cart-checkout .cart-box table  td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+

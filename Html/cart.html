@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-coms</title>
+    <link rel="stylesheet" href="../Css/style.css"> 
+    <link rel="stylesheet" href="../Css/contact.css">
+    <link rel="stylesheet" href="../Css/shop.css">
+    <link rel="stylesheet" href="../Css/cart.css">
+    <link rel="stylesheet" href="../Css/mediaquery1300.css">
+    <link rel="stylesheet" href="../Css/mediaquery768.css">   
+    <link rel="stylesheet" href="../Css/mediaquery425.css">
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+
+    <section id="header">
+     
+   <a href=""> <img src="../Assets/hasna.png" alt="" srcset=""></a>
+<div>
+    <ul id="navbar">
+        <a id="close"> <i class="fa-duotone fa-solid fa-rectangle-xmark"></i></a>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="shop.html">Product</a></li>
+        <li><a href="blog.html">Our Story</a></li>
+        <li><a href="aboutus.html">About</a></li>
+        <li><a  href="contact.html">Contact</a></li>
+        <li id="sm-screen-card"><a   class="active"  href="cart.html" target="_blank">  <i class="fa-solid fa-cart-shopping"></i></a></li>
+
+    </ul>
+</div>
+<div id="mobile">
+ <a><i class="fa-solid fa-cart-shopping"></i></a>
+ <i id="bar" class="fa fa-bars"></i>
+</div>
+
+   
+    </section>
+
+    <section id="shop-header" class="cart">
+ 
+        <h2>Cart  </h2>
+        <p>Add your coupon code &Save Upto 70%
+        </p>
+      
+    </section>
+
+    <section id="cart">
+      
+
+        <ul class="table-header">
+            <li>remove</li>
+            <li>image</li>
+            <li>product</li>
+            <li>price</li>
+            <li>qunatity</li>
+            <li>subtotal</li>
+        </ul>
+        <div id="productContainer">
+            <!-- <ul class=" table-header table-body">
+                <li><i class="far fa-window-close"></i></li>
+                <li><img src="../Assets/shirts/1.png" alt="" srcset=""></li>
+                <li><h5>product name</h5></li>
+                <li><h5 id="value">$1123</h5></li>
+                <li><input type="number" name="qunatity" id="qunatity"></li>
+                <li><h5 id="subtotal">123</h5></li>
+            </ul> -->
+
+        </div>
+       
+
+    </section>
+
+
+    <section id="cart-checkout">
+        <div class="coupon-box">
+            <h3>
+                apply coupon
+            </h3>
+            <input type="text" name="coupon" id="coupon" placeholder="Enter Your Coupon">
+            <input type="button" value="Apply" onclick="totalval()">
+        </div>    
+        <div class="cart-box">
+            <h3>cart totals</h3>
+            <table>
+                <tr>
+                    <th>cart subtotal</th>
+                    <td>$333</td>
+                </tr>
+                <tr>
+                    <th>shipping</th>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                <th>total</th>
+                    <td id="finalprice">
+                        $333
+                    </td>
+            </tr>
+                
+            </table>
+            <input type="button" value="Proceed to Checkout">
+
+        </div>
+    </section>
+
+
+
+
+
+   
+
+    <section id="newsletter">
+    <div class="newsboxs section-p1 section-m1">
+        <div class="newsbox1">
+            <h2>Sign Up For Newsletters</h2>
+            <p>Get Email Update about our latest shop and <span>special offers.</span></p>
+        </div> 
+        <div class="newsbox2">
+            <input type="text" placeholder="Your Email Address"><button>Sign Up</button>
+        </div>
+  
+    </div>    
+    </section>   
+
+    <section id="footer" class="section-p1">
+      <div class="contact">
+        <div class="logo">
+            <img src="../Assets/hasna.png" alt="" srcset="">
+        </div>
+        <div class="contact_details">
+            <h4>Contact</h4>
+            <p><span>Address:</span>165 Siruvangur Road,Kallakurichi</p>
+            <p><span>Phone:</span> +91 7200241212</p>
+            <p><span>Hours:</span>10:00-18:00,Mon-Sat</p>
+        </div>
+
+        <div class="follow">
+            <h4>Follow Us</h4>
+           <div class="icon_list">
+            <i class="fab fa-youtube fa-2x"></i>
+            <i class="fab fa-facebook fa-2x"></i>
+            <i class="fab fa-instagram fa-2x"></i>
+            <i class="fab fa-twitter fa-2x"></i>
+           </div>
+        </div>
+        
+
+    </div>
+
+    <div class="about footerstyle-flex">
+            <h4 class="footerstyle-h4 ">About</h4>
+            <a href="#">About Us</a>
+            <a href="#"> Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms &Conditions</a>
+            <a href="#">Contact US</a>
+    </div>
+        
+    <div class="myaccount footerstyle-flex">
+        <h4 class="footerstyle-h4 ">My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#"> View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+        
+    
+    <div class="installapp footerstyle-flex">
+        <h4 class="footerstyle-h4 ">Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="img_div">
+            <img src="../Assets/apple.png" alt="">
+            <img src="../Assets/google.png" alt="">
+        </div>
+        <p>Secured Payment Gateways</p>
+        <div class="icon_list">
+            <i class="fab fa-cc-visa icons fa-3x"></i> <!-- Visa -->
+            <i class="fab fa-cc-mastercard icons fa-3x"></i> <!-- Mastercard -->
+            <i class="fab fa-cc-amex fa-3x"></i>
+            <i class="fas fa-credit-card fa-3x"></i>
+
+        </div>
+    </div>
+
+    <div class="copyright">
+        <span> &copy; </span>
+        <p>
+           2024 OneForAll-HTML CSS Ecommerce Template
+        </p>
+    </div>
+
+    </section>
+    <script  src="../Js/script.js"></script>
+
+</body>
+</html>
