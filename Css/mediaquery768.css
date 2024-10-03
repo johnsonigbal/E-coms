@@ -262,4 +262,10 @@
         width: 250px;
     }
 
+
+    #blog-box .blog-img {
+    
+        min-width: 0px;
+         min-height: 0px;
+     }
 }
