@@ -234,4 +234,32 @@
     #contact-form .form-details h1 {
         font-size: 30px;
     }
+
+
+    #cart-checkout{
+        flex-direction: column;
+        justify-content:space-between ;
+        align-items: center;
+    }
+    #cart-checkout .coupon-box,#cart-checkout .cart-box{
+        width: 100%;
+    }
+
+    #cart {
+        padding: 10px 20px;
+    }
+
+    table tr th{
+        padding: 1px;
+        font-size: 13px;
+    }
+    table tr td{
+        padding: 1px;
+        font-size: 13px;
+    }
+
+    #newsletter .newsbox2 input {
+        width: 250px;
+    }
+
 }

@@ -29,9 +29,10 @@ if (pro) {
     h4element.innerText=data.category
 }
 
+
 function valAddcart()
 {
-    let getoldval=JSON.parse(localStorage.getItem('listofcart'))
+    let getoldval=JSON.parse(localStorage.getItem('listofcart')) //local storage 
     getoldval[getoldval.length]=data
     let storedata=JSON.stringify(getoldval)
     localStorage.setItem('listofcart', storedata);

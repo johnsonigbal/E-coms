@@ -54,40 +54,40 @@ for (let i = 0; i < img.length; i++) {
     getdata.forEach(getdata => {
       
     // 2. Create a new <ul> element
-    const ul = document.createElement("ul");
+    const tr = document.createElement("tr");
     // ul.className = "table-header table-body"; // Set the class for styling
 
     // 3. Create new <li> elements and add them to the new <ul>
-    const closeIcon = document.createElement("li");
-    closeIcon.innerHTML = `<i onclick="childdelete(${getdata.id})" class="far fa-window-close"></i>`;
+    const closeIcon = document.createElement("td");
+    closeIcon.innerHTML = `<i  onclick="childdelete(${getdata.id})" class="far fa-window-close"></i>`;
 
-    const imgItem = document.createElement("li");
-    imgItem.innerHTML = `<img src=${getdata.image} alt="" srcset="">`;
+    const imgItem = document.createElement("td");
+    imgItem.innerHTML = `<img width="100%" src=${getdata.image} alt="" srcset="">`;
 
-    const productName = document.createElement("li");
+    const productName = document.createElement("td");
     productName.innerHTML = `<h5>${getdata.title}</h5>`;
 
-    const valueItem = document.createElement("li");
+    const valueItem = document.createElement("td");
     valueItem.innerHTML = `<h5 id="value">${getdata.price}</h5>`;
 
-    const quantityInput = document.createElement("li");
+    const quantityInput = document.createElement("td");
     quantityInput.innerHTML = `<input type="number" name="quantity"  value=${1} onchange="valchange(${getdata.id},this.value)">`;
 
-    const subtotalItem = document.createElement("li");
+    const subtotalItem = document.createElement("td");
     subtotalItem.innerHTML = `<h5 id="subtotal">${getdata.price}</h5>`;
 
-    ul.id=getdata.id
+    tr.id=getdata.id
 
     // 4. Append each <li> to the new <ul>
-    ul.appendChild(closeIcon);
-    ul.appendChild(imgItem);
-    ul.appendChild(productName);
-    ul.appendChild(valueItem);
-    ul.appendChild(quantityInput);
-    ul.appendChild(subtotalItem);
+    tr.appendChild(closeIcon);
+    tr.appendChild(imgItem);
+    tr.appendChild(productName);
+    tr.appendChild(valueItem);
+    tr.appendChild(quantityInput);
+    tr.appendChild(subtotalItem);
 
     // 5. Append the new <ul> to the productContainer
-    productContainer.appendChild(ul);
+    productContainer.appendChild(tr);
     });
 }
 
