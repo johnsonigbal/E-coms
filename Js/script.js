@@ -4,6 +4,8 @@ const mobilemenu=document.getElementById('bar')
 const navbar=document.getElementById('navbar')
 const closed=document.getElementById('close')
 
+
+
 if (mobilemenu||closed)
 {
     mobilemenu.addEventListener("click",()=>{
@@ -14,6 +16,8 @@ if (mobilemenu||closed)
         navbar.classList.remove('active')
     })
 }
+
+
 
 let img = document.getElementsByClassName('dressbox');
 

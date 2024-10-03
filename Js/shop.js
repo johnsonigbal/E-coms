@@ -51,9 +51,22 @@ function  getapidata(api)
 
 }
 
-function productdisplay(id)
-{
-//   console.log("id",id);
-  
+const mobilemenu=document.getElementById('bar')
+const navbar=document.getElementById('navbar')
+const closed=document.getElementById('close')
 
+// const cartmenu=document.getElementById('cartmenu')
+
+// cartmenu.addEventListener("click",()=>{window.location.href='/E-coms/Html/cart.html'})
+
+
+if (mobilemenu||closed)
+{
+    mobilemenu.addEventListener("click",()=>{
+        navbar.classList.add('active')
+    })
+
+    closed.addEventListener("click",()=>{
+        navbar.classList.remove('active')
+    })
 }

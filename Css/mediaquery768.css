@@ -8,18 +8,19 @@
     
     #navbar {
         position:absolute;
-        display: flex;
+        display: none;
         flex-direction: column;
         height: 100vh;
         width: 200px;
         top:0;
-        right:-600px;
+        right: -100px;
         justify-content: start;
         align-items: start;
         gap: 20px;
         background-color: #72AFCC;
         padding: 10px;
         transition:  1s;
+        
     }
     #sm-screen-card{
         display: none;
@@ -185,9 +186,6 @@
         flex-direction:column-reverse;
     }
 
-    #contact .contact-details{
-        
-    }
 
 
     #contact .contact-map{
